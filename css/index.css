@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Estilos CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/fotos-premium/resumen-borroso-azul-violeta-fondo-degradado-cuadrado-bokeh-hermoso-fondo-tecnologico-moderno-lineas-borrosas-gris-abstracto_548821-20335.jpg?w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #426BA8;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 480px;
+    font-family: 'Caprasimo', cursive;}
+
+img {
+    margin-right: 10px;
+    width: 100px;
+    height: 80px;
+}
+
+nav {
+    color: gray;
+    padding: 10px;
+    text-align: right;
+    margin-left: auto;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 1px;
+    margin-left: 6px;
+    font-size: 18px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+svg {
+    color: black;
+}
+
+.material-icons-outlined {
+    font: ea11;
+}
+
+.form-control.me-2 {
+    background-color: #268a5a;
+}
+
+.navbar.bg-body-tertiary {
+    margin: 5px;
+    padding: 0px;
+}
+
+.d-flex {
+    width: 150px;
+    height: 20px;
+    align-items: center;
+    background-color: #176F75
+}
+
+.bi {
+    text-decoration: none;
+    color: black;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.productos_pedidos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 35px;
+    background-color: #7fffd4;
+}
+
+.productos_pedidos a {
+    color: black;
+    text-decoration: none;
+
+}
+section {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.image {
+    width: 500px;
+    height: 400px;
+}
+
+.contai {
+    position: relative;
+    display: inline-block;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: 25%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.btn {
+    background-color: #176F75;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: -350px;
+    left: -130px;
+    text-align: center;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: -4px;
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.figura img {
+    width: 1250px;
+    height: 675px;
+    margin: 0px;
+}
+
+.laptops_demas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.laptops_demas  h5 {
+    font-size: 10px;
+}
+
+.laptops_demas  h6 {
+    font-size: 12px;
+}
+
+figcaption a {
+    color: black;
+    text-decoration: none;
+}
+
+.columna {
+    max-width: calc(50% - 20px);
+    flex-direction: calc(50% - 20px);
+    text-align: center;
+}
+
+.columna figure {
+    background-color: #426BA8;
+    padding: 10px;;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    height: 250px;
+    width: 280px;
+}
+
+.columna figure img {
+    width: 160px;
+    height: auto;
+    margin-bottom: 1px;
+    transition: transform .2s;    
+}
+
+.columna img:hover {
+    transform: scale(1.3);
+}
+
+.columna figure h4,
+.columna figure h5,
+.columna figure h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.columna figure h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.columna figure h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.columna figure h3 {
+    font-size: 20px;
+    color: #73aa8f;
+}
+
+.precio {
+    font-size: 20px;
+    color: black; 
+    margin-top: 5px;
+}
+
+.form-floating {
+    background-color: #426BA8;
+    padding: 10px;;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+ 
+.form-floating-coment {
+    background-color: #426BA8;
+    padding: 10px;;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    height: 120px;
+    width: 200px;
+}
+
+.redes_sociales {
+    align-items: flex-start;
+    text-align: center;
+}
+
+.redes_sociales img {
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    margin: 1px;
+    align-items: center;
+    transition: transform .2s;    
+}
+
+.pie-pagina{
+    width: 100%;
+    height: auto;
+    background-color: #426BA8;
+}
+
+.pie-pagina .grupo-1{
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+
+.pie-pagina .grupo-1 small{
+    font-size: 10px;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+}
+
+/*for phone*/
+@media (min-width:320px) and (max-width:767px){    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('https://img.freepik.com/fotos-premium/resumen-borroso-azul-violeta-fondo-degradado-cuadrado-bokeh-hermoso-fondo-tecnologico-moderno-lineas-borrosas-gris-abstracto_548821-20335.jpg?w=740');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    /* Estilos del encabezado */
+    header {
+        background-color: #426BA8;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+    
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .logo {
+        width: 80px;
+        height: auto;
+    }
+    
+    h1 {
+        margin: 10px 0;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+    
+    nav svg {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+    }
+    
+    nav a {
+        color: black;
+        text-decoration: none;
+        margin-right: 2px;
+        font-size: 18px;
+    }
+    
+    .d-flex {
+        width: 300px;
+        height: 20px;
+        align-items: center;
+        background-color: #176F75
+    }
+    
+    .figura img {
+        width: 400px;
+        height: 350px;
+        margin: 0px;
+    }
+    
+    .btn {
+        background-color: #176F75;
+        width: 100px;
+        height: 40px;
+        position: relative;
+        top: -185px;
+        left: -30px;
+        text-align: left;
+    }
+    
+    .btn a {
+        text-decoration: none;
+        color: black;
+        position: relative;
+        top: 2px;
+        text-align: center;
+    }
+    
+    /* Estilos de la sección */
+    section {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .laptops_demas {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 45px;
+    }
+    
+    .laptops_demas  h5 {
+        font-size: 10px;
+    }
+    
+    .laptops_demas  h6 {
+        font-size: 12px;
+    }
+    
+    figcaption a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .columna {
+        max-width: calc(50% - 20px);
+        flex-direction: calc(50% - 20px);
+        text-align: center;
+    }
+    
+    .columna figure {
+        background-color: #426BA8;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-align: center;
+        height: 320px;
+        width: 200px;
+    }
+    
+    .columna figure img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1px;
+        transition: transform .2s;    
+    }
+    
+    .columna img:hover {
+        transform: scale(1.3);
+    }
+    
+    .columna figure h4,
+    .columna figure h5,
+    .columna figure h3 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .columna figure h4 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .columna figure h5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .columna figure h3 {
+        font-size: 20px;
+        color: #73aa8f;
+    }
+    
+    .precio {
+        font-size: 20px;
+        color: black; 
+        margin-top: 5px;
+    }
+    
+    /* Estilos del pie de página */
+    .pie-pagina {
+        background-color: #426BA8;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .grupo-1 {
+        color: black;
+        margin-bottom: 10px;
+    }
+    
+    .redes_sociales {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    
+    .redes_sociales img {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    img {
+        margin: 10px auto;
+        width: 80px;
+        height: 80px;
+    }
+
+    nav {
+        margin: 5px auto;
+    }
+
+    nav a {
+        margin: 10px;
+        font-size: 25px;
+    }
+
+    .bi {
+        width: 50px;
+        height: 40px;
+        position: relative;
+        top: -8px;
+    }
+
+    .form-control.me-2 {
+        width: 80%;
+    }
+
+    .productos_pedidos {
+        width: 20px;
+    }
+
+    .btn {
+        width: 150px;
+        height: 40px;
+        position: relative;
+        top: -280px;
+        left: -90px;
+        margin: 10px auto;
+    }
+
+    .d-flex {
+        width: 900px;
+        height: 20px;
+        align-items: center;
+        background-color: #176F75
+    }
+
+    hr {
+        margin: 30px 0;
+    }
+
+    .figura img {
+        width: 100%;
+        height: auto;
+    }
+
+    .laptops_demas  h5 {
+        font-size: 10px;
+    }
+    
+    .laptops_demas  h6 {
+        font-size: 12px;
+    }
+    
+    figcaption a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .laptops_demas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .columna {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+        position: relative;
+        left: 70px;
+    }
+
+    .columna figure {
+        width: 350px;
+        height: auto;
+        align-items: center;
+    }
+
+    .columna figure img {
+        width: 200px;
+        height: auto;
+        margin-bottom: 1px;
+        transition: transform .2s;    
+    }
+    
+    .columna img:hover {
+        transform: scale(1.3);
+    }
+    
+    .columna figure h4,
+    .columna figure h5,
+    .columna figure h3 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .columna figure h4 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .columna figure h5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .columna figure h3 {
+        font-size: 20px;
+        color: #73aa8f;
+    }
+    
+    .precio {
+        font-size: 20px;
+        color: black; 
+        margin-top: 5px;
+    }
+    
+    .form-floating {
+        background-color: #426BA8;
+        padding: 10px;;
+        margin: 20px;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-align: center;
+        height: 50px;
+        width: 200px;
+    }
+     
+    .form-floating-coment {
+        background-color: #426BA8;
+        padding: 10px;;
+        margin: 20px;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-align: center;
+        height: 120px;
+        width: 200px;
+    }
+    
+    .redes_sociales {
+        align-items: flex-start;
+        text-align: center;
+    }
+    
+    .redes_sociales img {
+        width: 40px;
+        height: 40px;
+        padding: -100px;
+        margin: 2px;
+        align-items: center;
+        transition: transform .2s;    
+    }
+    
+
+    .pie-pagina .grupo-1 small {
+        font-size: 8px;
+    }
+}
